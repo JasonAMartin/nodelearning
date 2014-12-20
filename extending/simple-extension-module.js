@@ -1,5 +1,7 @@
 /**
-This is a simple example of extending with node modules. It is used by usingModeule.js in this directory.
+This is a simple example of extending core classes with node modules.
+
+This file is used by usingModule.js in this directory and shouldn't be run.
 
 This module extends fs.createReadStream and just adds a simple line before showing the output.
 **/
