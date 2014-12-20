@@ -16,6 +16,6 @@ node --harmony usingModule.js sample.txt
 "use strict"
 
 const
-customOpen = require("./simple-extension-module.js"),
-filename = process.argv[2],
-readFile = customOpen.display(filename);
+  customOpen = require("./simple-extension-module.js"),
+  filename = process.argv[2],
+  readFile = customOpen.display(filename);

@@ -7,18 +7,18 @@ This module extends fs.createReadStream and just adds a simple line before showi
 "use strict"
 
 const
-fs = require("fs"),
-util = require("util"),
+  fs = require("fs"),
+  util = require("util"),
 
 //client constructor
-CustomOpen = function(filename){
- let
-  stream = fs.createReadStream(filename);
+  CustomOpen = function(filename){
+   let
+    stream = fs.createReadStream(filename);
 
- self.on("data", function(chunk){
-    process.stdout.write("Simple read file extension example: \n" + chunk);
-  });
-};
+   self.on("data", function(chunk){
+      process.stdout.write("Simple read file extension example: \n" + chunk);
+    });
+  };
 
 //LDJClient will inherit from EventEmitter
 util.inherits(CustomOpen, fs.createReadStream);
