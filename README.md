@@ -1,19 +1,24 @@
 Node Learning
 =============
 
-This repo is just random commits by me to help others discover Node.
-
-For organization I'm putting each little segment in its own folder (example: file-watcher) so that it's easier for people to go straight into the thing they're interested in.
+This repo is random commits by me to help others discover the joy that is Node.
 
 My dev box is Linux-based, but that largely shouldn't matter. Also, I run node with the --harmony flag, which enables me to use future JS additions (ES6).
 
-While I do tend to run a future version of Node, so I can play with generators, for these examples, I worked to not include anything out of the ordinary, so that they will work with the current version of Node everyone is using (with the --harmony flag).
+While I do tend to run a future version of Node so I can play with generators, these examples should work with the current stable version of Node with the --harmony flag.
 
 **Note:** As with any code, things can usually be done various ways. My goal with this repo is to simply instruct people to get them going with Node. I encourage you to explore ways to do things better for your situation. Have fun!
 
 ## Forking
 
 Please feel free to fork/star this repo and modify the items with your own versions. Let's spread the Node love!
+
+## Run Example
+
+One way to run the scripts is by using your terminal. Once you've navigated to the directory containing the script you want to write, you'd just run a command like this: node --harmony fileWatcher02.js log.txt
+
+The above command will run the script fileWatcher02.js with Node in harmony mode and pass it in an argument of log.txt, which happens to be the file this script will watch.
+
 
 ## Some Useful Links:
 

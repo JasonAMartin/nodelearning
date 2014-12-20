@@ -1,0 +1,1 @@
+This is a demo file to watch. Use it with one of the file watcher scripts and edit it to see what happens.
